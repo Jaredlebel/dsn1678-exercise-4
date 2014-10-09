@@ -57,7 +57,7 @@ section {
 }
 
 .js-shuttle-fade {
-    -webkit-animation: shuttle-fade 0.5s linear forwards;
+    -webkit-animation: shuttle-fade 0.5s ease-in-out forwards;
 }
 
 @-webkit-keyframes shuttle-fade {
@@ -84,7 +84,7 @@ section {
 }
 
 .js-ship-fade {
-    -webkit-animation: ship-fade 0.5s linear forwards;
+    -webkit-animation: ship-fade 0.5s ease-in-out forwards;
 }
 
 @-webkit-keyframes ship-fade {
