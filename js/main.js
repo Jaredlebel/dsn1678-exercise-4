@@ -1,6 +1,8 @@
 var $win = $(window);
 var $sun = $('.sun');
 var $sunSection = $('.sun-section');
+var $dipperSection = $('.dipper-section');
+var $dipper = $('.dipper');
 
 $win.on('scroll', function() {
     var scrollPos = $win.scrollTop();
@@ -9,3 +11,7 @@ $win.on('scroll', function() {
     
     $sunSection.css('background-position', 'center ' + scrollPos / 2 + 'px');
 });
+
+$dipperSection.waypoint(function () {
+    console.log('Scrolled to!');
+}
