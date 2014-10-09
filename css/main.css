@@ -48,7 +48,7 @@ section {
 }
 
 .shuttle {
-    width: 300px;
+    width: 200px;
     transform: translateY(200px);
 }
 
@@ -57,7 +57,7 @@ section {
 }
 
 .js-shuttle-fade {
-    -webkit-animation: shuttle-fade 0.3s linear forwards;
+    -webkit-animation: shuttle-fade 0.5s linear forwards;
 }
 
 @-webkit-keyframes shuttle-fade {
@@ -84,7 +84,7 @@ section {
 }
 
 .js-ship-fade {
-    -webkit-animation: ship-fade 0.3s linear forwards;
+    -webkit-animation: ship-fade 0.5s linear forwards;
 }
 
 @-webkit-keyframes ship-fade {
