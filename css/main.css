@@ -49,8 +49,7 @@ section {
 
 .shuttle {
     width: 300px;
-    position: relative;
-    top: 10rem;
+    transform: translateY(100px);
 }
 
 .shuttle-section {
@@ -63,19 +62,19 @@ section {
 
 @-webkit-keyframes shuttle-fade {
     0% {
-        top: 10rem;
         opacity: 0;
+        transform: translateY(100px);
     }
     100% {
-        top: 0rem;
-        opacity: 1;   
+        opacity: 1;  
+        transform: translateY(0);
     }
 }
 
 .ship {
     width: 150px;
     display: inline-block;
-    transform: translate(Y)(100px);
+    transform: translateY(100px);
 }
 
 .ship-section {
@@ -91,10 +90,26 @@ section {
 @-webkit-keyframes ship-fade {
     0% {
         opacity: 0;
-        transform: translate(Y)(100px);
+        transform: translateY(100px);
     }
     100% {
         opacity: 1;  
-        transform: translate(Y)(0);
+        transform: translateY(0);
     }
+}
+
+.ship1 {
+    -webkit-animation-delay: 0.1s;
+}
+
+.ship2 {
+    -webkit-animation-delay: 0.2s;
+}
+
+.ship3 {
+    -webkit-animation-delay: 0.07s;
+}
+
+.ship4 {
+    -webkit-animation-delay: 0.2s;
 }
