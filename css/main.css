@@ -49,7 +49,7 @@ section {
 
 .shuttle {
     width: 300px;
-    transform: translateY(100px);
+    transform: translateY(200px);
 }
 
 .shuttle-section {
@@ -63,7 +63,7 @@ section {
 @-webkit-keyframes shuttle-fade {
     0% {
         opacity: 0;
-        transform: translateY(100px);
+        transform: translateY(200px);
     }
     100% {
         opacity: 1;  
@@ -74,7 +74,7 @@ section {
 .ship {
     width: 150px;
     display: inline-block;
-    transform: translateY(100px);
+    transform: translateY(200px);
 }
 
 .ship-section {
@@ -90,7 +90,7 @@ section {
 @-webkit-keyframes ship-fade {
     0% {
         opacity: 0;
-        transform: translateY(100px);
+        transform: translateY(200px);
     }
     100% {
         opacity: 1;  
