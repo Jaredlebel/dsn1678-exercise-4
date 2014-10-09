@@ -15,7 +15,7 @@ $win.on('scroll', function() {
     
     $sunSection.css('background-position', 'center ' + scrollPos / 2 + 'px');
     
-    $shipSection.css('background-position', 'center ' + scrollPos / 2 + 'px');
+    /*$shipSection.css('background-position', 'center ' + scrollPos / 2 + 'px');*/
 });
 
 $dipperSection.waypoint(function () {
